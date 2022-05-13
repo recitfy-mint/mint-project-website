@@ -53,8 +53,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
+    width: 75px;
+    height: 50px;
     margin: 2px 0 8px 0;
 }
 
@@ -77,8 +77,8 @@ ul.news {
 }
 
 @media (min-width: 768px) {
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 3 }
+    .role.grad      { column-count: 1 }
+    .project-people { column-count: 2 }
     .card-columns   { column-count: 3 }
 }
 

@@ -1,161 +1,73 @@
+Venkat:
+    display_name: "Venkat Viswanathan"
+    webpage: "https://www.andrew.cmu.edu/user/venkatv/index.html"
+    role: leadership
+    image: /img/people/Venkat_Viswanathan.png
+    bio: Associate Professor of Mechanical Engineering, Carnegie Mellon University
+    email: "venkvis [at] cmu [dot] edu"
 
-prof-a:
-    display_name: "Prof A"
-    role: faculty
+Yet:
+    display_name: "Yet-Ming Chiang"
+    webpage: "https://dmse.mit.edu/people/yet-ming-chiang"
+    role: leadership
+    image: /img/people/yetmingchiang.jpeg
+    bio: Professor of Materials Science and Engineering, Massachusetts Institute of Technology
+    # email: "venkvis [at] cmu [dot] edu"
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
+Paul:
+    display_name: "Paul Fenter"
+    webpage: "https://www.anl.gov/profile/paul-a-fenter"
+    role: leadership
+    image: /img/people/Paul_Fenter.jpeg
+    bio: Group Leader, Argonne National Laboratory
+    # email: "venkvis [at] cmu [dot] edu"
 
-prof-c:
-    display_name: "Prof C"
-    role: faculty
+LMahadevan:
+    display_name: "L. Mahadevan"
+    webpage: "https://softmath.seas.harvard.edu/"
+    role: leadership
+    image: /img/people/Mahadevan.jpeg
+    bio: Professor of Applied Mathematics, Harvard University
+    # email: "venkvis [at] cmu [dot] edu"
 
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
+Emil:
+    display_name: "Emil Annevelink"
     role: postdoc
+    bio: Postdoctoral Research Associate, Carnegie Mellon University
+    image: /img/people/Annevelink.png
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+Pinwen:
+    display_name: "Pinwen Guan"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Carnegie Mellon University
+    image: /img/people/pinweng.jpeg
+
+Valentin:
+    display_name: "Valentin Sulzer"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Carnegie Mellon University
+    image: /img/people/vsulzer.jpeg
+
+Leif:
+    display_name: "Leif Fredericks"
+    role: staff
+    bio: Research Scientist, Carnegie Mellon University
+    # image: /img/people/vsulzer.jpeg
+
+Varun:
+    display_name: "Varun Shankar"
     role: grad
-    image: /img/people/storm.png
+    bio: "PhD Student, Carnegie Mellon University"
+    image: /img/people/varunshankar.jpeg
 
-grad-a:
-    display_name: "Grad A"
+Shang:
+    display_name: "Shang Zhu"
     role: grad
+    bio: "PhD Student, Carnegie Mellon University"
+    image: /img/people/shangzhu.jpeg
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+Kian:
+    display_name: "Kian Pu"
     role: grad
-
-grad-c:
-    display_name: "Grad C"
-    role: grad
-
-grad-d:
-    display_name: "Grad D"
-    role: grad
-
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+    bio: "PhD Student, Carnegie Mellon University"
+    image: /img/people/jiankun_pu.jpeg

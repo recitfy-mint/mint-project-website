@@ -5,43 +5,23 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 8
-    image: true
-- - roles: [collab, ugrad, ugrad-alum]
+- - roles: [leadership, postdoc, staff]
     width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
-
+    image: true
+  - roles: [grad, colab]
+    width: 5
+    image: true
 ---
 
 <div class="jumbotron">
+    <h1>RECTIFY:</h1>
+    <h1>Rechargeability Enabled by Coated inTerfaces and dIFferentable phYsical modeling</h1>
+
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        The RECTIFY program is a <a href="https://www.darpa.mil/">DARPA</a> funded program that aims to create an all-solid state battery through the use of morphogenic interface materials.
+        Our approach is based on creating an end-to-end differentiable simulation stack that is calibrated to within 10% accuracy of characterization tools from 1nm - 1mm.
     </p>
 </div>
-
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
 
 <section>
     <h2>Research</h2>
@@ -73,3 +53,19 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+
+<!-- <section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section> -->
