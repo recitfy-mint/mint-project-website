@@ -24,7 +24,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: ''
+# base: ''
 
 # make pages for the _projects folder
 collections:
@@ -34,9 +34,9 @@ collections:
 # Navigation bar links.
 navigation:
   - title: Home
-    link: /
+    link: /index.html
   - title: People
-    link: /#people
+    link: /index.html#people
   - title: Research
     link: /research.html
   - title: Publications
