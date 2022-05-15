@@ -1,6 +1,7 @@
 _site
 _includes/pubs.html
 /test-deploy.sh
+_site-publish/
 
 .jekyll-metadata
 .jekyll-cache/
