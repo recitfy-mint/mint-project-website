@@ -1,0 +1,4 @@
+conda activate website
+
+make sure ruby is on the path. if it isn't installed, use homebrew
+make sure jekyll can run. maybe need to do gem install jekyll. 

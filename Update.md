@@ -1,0 +1,8 @@
+1. Clone the website locally from github
+2. Create a new branch with your name and informative description of your changes like “checkout -b venkatv/updating_sciML_MLP_series”.  Make changes in sciML.html and check them by opening the file in your browser for formatting.
+3. Run “make serve” in the project-website directory to run a local server, follow the link and test the website and the links. You also have to make sure you have ruby installed (not the one that comes with MacOS). You can install ruby and rclone using your preferred package manager e.g. on macOS: “brew install rclone”.
+4. Commit your changes using ‘git commit -m “Updating website”’ and push them using “git push”. Once you have pushed go to the GitHub and make a pull request, your PR should pass all the tests, make sure all links are https not http if some tests fail. If there are no errors, go ahead and merge your changes to master. NOTE: Make sure to merge to this repository’s master and not the uwsampa one.
+5. Ensure you have access to manage the website on publishing.andrew.cmu.edu.
+6. Make sure you have rclone installed and using the command “clone config” setup an SFTP connection with name “cmu-awps” and your Andrew credentials, everything else can be set to default values/blank.
+7. In your local repository switch back to main, pull changes and run “make deploy-github”
+8. Go to publishing.andrew.cmu.edu and publish the website.

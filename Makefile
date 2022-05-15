@@ -9,8 +9,9 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-build: _includes/pubs.html
-	jekyll build
+# build: _includes/pubs.html
+# 	jekyll build
+build: _site/
 
 # Install Gemfiles
 Gemfile.lock: Gemfile
@@ -25,7 +26,7 @@ SRC += _config.yml
 BIB_FILES := _includes/pubs.html
 
 # Build target for previewing on AWPS
-PREVIEW_DIR ?= /collections/rectify
+PREVIEW_DIR ?= /collections/energy/rectify
 _site/ : Gemfile.lock $(BIB_FILES) $(SRC)
 	rm -rf $@
 	bundle exec jekyll build -d $(join $@, $(PREVIEW_DIR)) -b $(PREVIEW_DIR)
@@ -66,7 +67,7 @@ deploy: clean build
 # 	RELEASE_URL Location of the released zip file on github. Correctly set if cloned via https
 # 	PREVIEW_DIR Folder on AWPS where files are copied
 DEPLOY_HOST ?= cmu-awps
-RELEASE_URL ?= https://github.com/rectify-minte/mint-project-website/releases/download/latest/site-publish.zip
+RELEASE_URL ?= https://github.com/rectify-mint/mint-project-website/releases/download/latest/site-publish.zip
 deploy-publish: _site-publish/
 	rclone sync -P $<$(PUBLISH_DIR) $(DEPLOY_HOST):$(PREVIEW_DIR)
 deploy-preview: _site/
