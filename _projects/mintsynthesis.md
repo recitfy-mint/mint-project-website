@@ -6,6 +6,8 @@ description: |
 
 people:
   - Yet
+  - Mike
+  - Cole
 
 layout: project
 last-updated: 2022-03-14

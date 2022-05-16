@@ -48,6 +48,12 @@ Valentin:
     bio: Postdoctoral Research Associate, Carnegie Mellon University
     image: /img/people/vsulzer.jpeg
 
+Mark:
+    display_name: "Mark Wolfman"
+    role: staff
+    image: /img/people/mark_wolfman.jpeg
+    bio: Assistant Physicist, Argonne National Laboratory
+
 Leif:
     display_name: "Leif Fredericks"
     role: staff
@@ -87,3 +93,4 @@ Cole:
     role: grad
     image: /img/people/cole_fincher.png
     bio: PhD Student, Massachusetts Institute of Technology
+
