@@ -71,3 +71,18 @@ Kian:
     role: grad
     bio: "PhD Student, Carnegie Mellon University"
     image: /img/people/jiankun_pu.jpeg
+
+Salem:
+    display_name: "Salem Al Mosleh"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Harvard University
+
+Mike:
+    display_name: "Mike Wang"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Massachusetts Institute of Technology
+
+Cole:
+    display_name: "Cole Fincher"
+    role: grad
+    bio: PhD Student, Massachusetts Institute of Technology
