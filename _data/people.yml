@@ -72,15 +72,16 @@ Shang:
     bio: "PhD Student, Carnegie Mellon University"
     image: /img/people/shangzhu.jpeg
 
-Kian:
-    display_name: "Kian Pu"
-    role: grad
-    bio: "PhD Student, Carnegie Mellon University"
-    image: /img/people/jiankun_pu.jpeg
+# Kian:
+#     display_name: "Kian Pu"
+#     role: grad
+#     bio: "PhD Student, Carnegie Mellon University"
+#     image: /img/people/jiankun_pu.jpeg
 
 Salem:
     display_name: "Salem Al Mosleh"
     role: postdoc
+    image: /img/people/salem.jpeg
     bio: Postdoctoral Research Associate, Harvard University
 
 Mike:
